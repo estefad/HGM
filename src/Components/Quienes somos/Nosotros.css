@@ -1,0 +1,14 @@
+.nosotros-container {
+    display: flex; /* Utiliza flexbox para alinear los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 20px; /* Espaciado alrededor de la sección */
+  }
+  
+  .nosotros-image {
+    max-width: 300px; /* Ajusta el tamaño de la imagen */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+  }
+  
+  .nosotros-text {
+    max-width: 600px; /* Ajusta el tamaño del contenedor de texto */
+  }

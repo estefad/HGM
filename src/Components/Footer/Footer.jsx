@@ -5,9 +5,10 @@ const Footer = () => {
     <>
     <footer>
         <div className="container">EL FOOTER AQUI</div>
+        <span>Powered by TEFA</span>
     </footer>
     </>
   )
 }
 
-export default Footer
+export default Footer 

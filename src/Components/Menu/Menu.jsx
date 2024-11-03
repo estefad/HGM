@@ -1,33 +1,30 @@
-import React from 'react'
+import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { Link, Outlet } from 'react-router-dom';
-//import Contacto from '../Contacto/Contacto'
+import { Link } from 'react-scroll';
+import './Menu.css';
+
 
 function Menu() {
   return (
     <>
-        <Navbar expand="lg" className="bg-body-tertiary">
-      <Container>
-        <Navbar.Brand as={Link} to='/'>HGM CONSULTORES</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link as={Link} to='/'>Home</Nav.Link>
-            <Nav.Link as={Link} to='/Nosotros'>Sobre Nosotros</Nav.Link>
-            <Nav.Link as={Link} to='/Contacto'>Contacto</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
-    <section>
-        <Outlet/> 
-    </section>
+      <Navbar expand="lg" className="bg-body-tertiary">
+        <Container>
+          <Navbar.Brand href="#">HGM CONSULTORES</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="me-auto menu">
+              {/* Enlaces usando react-scroll */}
+              <Nav.Link as={Link} to="home" smooth={true} duration={500}>Home</Nav.Link>
+              <Nav.Link as={Link} to="nosotros" smooth={true} duration={500}>Sobre Nosotros</Nav.Link>
+              <Nav.Link as={Link} to="contacto" smooth={true} duration={500}>Contacto</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
     </>
   );
 }
 
-export default Menu
-
-//Outlet es de recat-router-dom y se utiliza para renderizar=mostrar el contenido de lo que estamos haciendo
+export default Menu;
