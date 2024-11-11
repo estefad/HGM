@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Gowun+Dodum&display=swap');
+
+
+.homeText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 6rem;
+    background-color: white;
+}
+
+.us{
+    font-family: "Gowun Dodum", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    font-size: 1.2em;
+}

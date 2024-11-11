@@ -24,15 +24,15 @@ function App() {
          
     {/* Secciones */}
     
-    <Element  name="home"  className="section" style={{ height: '100vh', backgroundColor: '#f0f0f0' }}>
+    <Element  name="home"  className="section" style={{ height: '90vh' }}>
       <Home/>
     </Element>
 
-    <Element name="nosotros" className="section" style={{ height: '100vh', backgroundColor: '#e0e0e0' }}>
+    <Element name="nosotros" className="section" style={{ height: '300vh' }}>
       <Nosotros/>
     </Element>
 
-    <Element name="contacto" className="section" style={{ height: '100vh', backgroundColor: '#d0d0d0' }}>
+    <Element name="contacto" className="section" style={{ height: '100vh'}}>
       <Contacto/>
     </Element>
   

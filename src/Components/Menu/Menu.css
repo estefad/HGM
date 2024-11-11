@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Gowun+Dodum&display=swap');
+
+
+/* Para evitar que el contenido se superponga al menú fijo */
+body {
+    padding-top: 60px; /* Ajusta este valor según la altura de tu navbar */
+}
+
+
 .menu :hover{
     cursor: pointer;
 }
@@ -9,5 +18,34 @@
 
 .bg-body-tertiary {
     --bs-bg-opacity: 1;
-    background-color: white !important;
+    background-color: rgb(236, 234, 234) !important;
   }
+
+  /* Asegúrate de que este CSS esté cargado después de Bootstrap para que funcione correctamente */
+
+.menu {
+    display: flex; /* Usar flexbox para el menú */
+    justify-content: center; /* Centrar los elementos del menú */
+    width: 100%; /* Asegurarse de que ocupe todo el ancho */
+    
+}
+
+.navbar {
+    padding: 10px 0; /* Espaciado vertical del menú */
+}
+
+a.navbar-brand {
+    margin-left: 13rem !important; /* Ajusta este valor para reducir el espacio a la derecha */
+}
+
+.nav-link {
+    margin: 0 15px; /* Espaciado entre los enlaces del menú */
+    color: rgb(3, 3, 3); /* Cambia el color según tu diseño */
+    transition: background-color 0.3s; /* Transición suave para el hover */
+}
+
+.nav-link:hover {
+    background-color: rgba(181, 182, 182, 0.986); /* Color de fondo al pasar el mouse */
+    border-radius: 5px;
+}
+

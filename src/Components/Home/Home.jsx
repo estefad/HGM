@@ -1,11 +1,11 @@
 import React from 'react'
-
+import './Home.css'
 
 const Home = () => {
   return (
     <>
       <div className='homeText'>
-        <p>Somos la experticia requerida para llevar a cabo un sistema de gestión basándonos
+        <p className='us'>Somos la experticia requerida para llevar a cabo un sistema de gestión basándonos
           en experiencias dentro de obras, e industrias de diferentes rubros. Para ello,
           disponemos de herramientas, sistemas, y metodología de trabajo conjunto 
           colaborativo con capacidades dinámicas-analíticas   para resolver situaciones 

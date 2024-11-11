@@ -2,13 +2,42 @@
     display: flex; /* Utiliza flexbox para alinear los elementos */
     align-items: center; /* Centra verticalmente los elementos */
     padding: 20px; /* Espaciado alrededor de la sección */
+    justify-content: center;
+    background-color: rgb(233, 231, 231);
   }
   
   .nosotros-image {
     max-width: 300px; /* Ajusta el tamaño de la imagen */
-    margin-right: 20px; /* Espacio entre la imagen y el texto */
+    height: 150px;
+    margin-right: 30px; /* Espacio entre la imagen y el texto */
   }
   
   .nosotros-text {
     max-width: 600px; /* Ajusta el tamaño del contenedor de texto */
+    text-align: justify;
   }
+
+  .nosotros-container2 {
+    display: flex; /* Utiliza flexbox para alinear los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 20px; /* Espaciado alrededor de la sección */
+    justify-content: center;
+    background-color: rgb(247, 246, 193);
+  }
+  
+  .nosotros-container3 {
+    display: flex; /* Utiliza flexbox para alinear los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 20px; /* Espaciado alrededor de la sección */
+    justify-content: center;
+    background-color: rgb(203, 226, 225);
+  }
+  
+  .nosotros-container4 {
+    display: flex; /* Utiliza flexbox para alinear los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 20px; /* Espaciado alrededor de la sección */
+    justify-content: center;
+    background-color: rgb(236, 230, 208);
+  }
+  
