@@ -17,13 +17,6 @@
     text-align: justify;
   }
 
-  .nosotros-container2 {
-    display: flex; /* Utiliza flexbox para alinear los elementos */
-    align-items: center; /* Centra verticalmente los elementos */
-    padding: 20px; /* Espaciado alrededor de la sección */
-    justify-content: center;
-    background-color: rgb(247, 246, 193);
-  }
   
   .nosotros-container3 {
     display: flex; /* Utiliza flexbox para alinear los elementos */

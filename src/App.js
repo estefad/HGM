@@ -1,13 +1,16 @@
 import React from 'react';
 import './App.css';
-import Menu from './Components/Menu/Menu';
+import Menu from './Components/Menu/Menu.jsx';
 import Footer from './Components/Footer/Footer';
 import { Element } from 'react-scroll';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Home from './Components/Home/Home';
-import Nosotros from './Components/Quienes somos/Nosotros';
-import Contacto from './Components/Contacto/Contacto';
-import Logo from './logo.png'
+import Logo from '../src/images/logo.png'
+import Home from './Components/Home/Home.jsx';
+import SegIndustrial from './Components/Quienes somos/Seg.jsx';
+import Contacto from './Components/Contacto/Contacto.jsx';
+import Construccion from './Components/Quienes somos/Construccion.jsx';
+import Ocupacional from './Components/Quienes somos/Ocupacional.jsx';
+
 
 
 function App() {
@@ -28,9 +31,18 @@ function App() {
       <Home/>
     </Element>
 
-    <Element name="nosotros" className="section" style={{ height: '300vh' }}>
-      <Nosotros/>
+    <Element name="industrial" className="section" style={{ height: '140vh' }}>
+      <SegIndustrial/>
     </Element>
+
+    <Element name="construccion" className="section" style={{ height: '114vh' }}>
+      <Construccion/>
+    </Element>
+
+    <Element name="ocupacional" className="section" style={{ height: '145vh' }}>
+      <Ocupacional/>
+    </Element>
+
 
     <Element name="contacto" className="section" style={{ height: '100vh'}}>
       <Contacto/>
